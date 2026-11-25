@@ -1,5 +1,11 @@
 # Sate Night — Satay Stall Cooking Game
 
+[![make.fun · best-cooking-game-20261125-0137](https://make.fun/badge/best-cooking-game-20261125-0137.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![rank](https://make.fun/badge/best-cooking-game-20261125-0137/matzzsatoru/sate-night/rank.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![reward](https://make.fun/badge/best-cooking-game-20261125-0137/matzzsatoru/sate-night/reward.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+
+Bounty page: [Make the best cooking game](https://make.fun/bounty/best-cooking-game-20261125-0137)
+
 A complete, original 2D cooking game for the make.fun bounty
 **"Make the best cooking game"** (`best-cooking-game-20261125-0137`).
 
