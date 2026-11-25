@@ -1,15 +1,20 @@
-// A working best-game-01 entry (Node 22, standard library only): the game is this directory's
-// game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
-// modules, no library and no network request), and the program hands it in. It copies game/ and
-// screenshots/ from beside this file to /output and writes /output/dossier.json, the summary the
-// judge reads, with the vendored make.fun library. A starting point, not a winner: Block Dodger, a
-// plain 2D canvas game where a paddle dodges falling blocks and catches coins, with a title screen,
-// score, lives and levels, game over and restart, flat colours and no sound. Build your own game
-// (any genre, any library you vendor under game/, or none), put your 3 or 4 PNG or JPEG screenshots
-// in screenshots/ (the first by name is the cover) and run it.
+// SATE NIGHT — a best-cooking-game-01 entry (Node 22, standard library only).
+// A 2D time-management cooking game set at a Jakarta street satay stall after dark:
+// charcoal glowing orange, smoke curling up, skewers sizzling on the grill, peanut
+// sauce, lontong rice cakes, shallots and chili on the counter. Orders arrive on
+// tickets with prices and countdowns; the cook grills each satay to the right
+// doneness (flip it before it burns), assembles the plate with sauce and lontong,
+// and serves it before the customer loses patience. Coins, score, streaks and a
+// shift timer drive the rush; too many failed orders and the night ends early.
+// The game itself is this directory's game/ folder — plain static files a desktop
+// browser loads offline (game/index.html and its ES modules, GSAP vendored locally
+// under game/vendor/, no network request) — and this program hands it in: it copies
+// game/ and screenshots/ from beside this file to /output and writes
+// /output/dossier.json, the summary the judge reads, with the vendored make.fun
+// library. Screenshots live in screenshots/ (the first by name is the cover).
 //
-// Serve it locally with `node serve.ts`, then open http://localhost:8080.
-// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
+// Local preview: run `node serve.ts` and open http://localhost:8080.
+// To run the hand-in outside the grader, point MAKEFUN_OUTPUT_DIR at a folder:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
